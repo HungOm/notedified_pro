@@ -4,8 +4,8 @@ import logo from '../img/logo.svg';
 const Header = () => {
   return (
     <header>
-      <img src={logo} alt="Notedly Logo" height="40" />
-      <h1>Notedly</h1>
+      <img src={logo} alt="Notedified Logo" height="40" />
+      <h1>Notedified</h1>
     </header>
   );
 };

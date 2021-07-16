@@ -23,8 +23,8 @@ const LogoText = styled.h1`
 const Header = () => {
   return (
     <HeaderBar>
-      <img src={logo} alt="Notedly Logo" height="40" />
-      <LogoText>Notedly</LogoText>
+      <img src={logo} alt="Notedified Logo" height="40" />
+      <LogoText>Notedified</LogoText>
     </HeaderBar>
   );
 };

@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 const Favorites = () => {
   useEffect(() => {
     // update the document title
-    document.title = 'Favorites — Notedly';
+    document.title = 'Favorites — Notedified';
   });
 
   return (

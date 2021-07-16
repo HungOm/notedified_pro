@@ -7,7 +7,7 @@ import { SIGNUP_USER } from '../gql/mutation';
 const SignUp = props => {
   useEffect(() => {
     // update the document title
-    document.title = 'Sign Up — Notedly';
+    document.title = 'Sign Up — Notedified';
   });
 
   const client = useApolloClient();
