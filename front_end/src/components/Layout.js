@@ -21,7 +21,7 @@ const Main = styled.main`
  position: fixed;
  height: calc(100% - 185px);
  width: 100%;
- padding: 1em;
+ padding: 2em;
  overflow-y: scroll;
  /* Again apply media query styles to screens above 700px */
  @media (min-width: 700px) {
@@ -39,7 +39,7 @@ const Layout = ({children})=>{
             <Header/>
             <Wrapper>
             <Navigation/>
-                <main>{children}</main>
+            <Main>{children}</Main>
 
 
             </Wrapper>
